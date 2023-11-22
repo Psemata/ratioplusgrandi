@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Othello", "Othello.csproj", "{431B6562-3747-415D-84DB-5148F000B9ED}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3D5FA94C-C1F0-4564-B077-7EE25F12C9CC} = {3D5FA94C-C1F0-4564-B077-7EE25F12C9CC}
+		{0CA86F8B-4891-41C5-B8F3-0DBA0DBD458B} = {0CA86F8B-4891-41C5-B8F3-0DBA0DBD458B}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControllerOthello", "ControllerOthello\ControllerOthello.csproj", "{CF774232-1CF7-48AA-8780-59C0204C33A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OthelloRandom", "OthelloRandom\OthelloRandom.csproj", "{0CA86F8B-4891-41C5-B8F3-0DBA0DBD458B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OthelloGreedy", "OthelloGreedy\OthelloGreedy.csproj", "{3D5FA94C-C1F0-4564-B077-7EE25F12C9CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OthelloCostaLopesIA", "OthelloCostaLopesIA\OthelloCostaLopesIA.csproj", "{5714B03D-D501-4B85-BB58-A0E2A4F148BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{431B6562-3747-415D-84DB-5148F000B9ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{431B6562-3747-415D-84DB-5148F000B9ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{431B6562-3747-415D-84DB-5148F000B9ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{431B6562-3747-415D-84DB-5148F000B9ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF774232-1CF7-48AA-8780-59C0204C33A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF774232-1CF7-48AA-8780-59C0204C33A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF774232-1CF7-48AA-8780-59C0204C33A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF774232-1CF7-48AA-8780-59C0204C33A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CA86F8B-4891-41C5-B8F3-0DBA0DBD458B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CA86F8B-4891-41C5-B8F3-0DBA0DBD458B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CA86F8B-4891-41C5-B8F3-0DBA0DBD458B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CA86F8B-4891-41C5-B8F3-0DBA0DBD458B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D5FA94C-C1F0-4564-B077-7EE25F12C9CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D5FA94C-C1F0-4564-B077-7EE25F12C9CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D5FA94C-C1F0-4564-B077-7EE25F12C9CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D5FA94C-C1F0-4564-B077-7EE25F12C9CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5714B03D-D501-4B85-BB58-A0E2A4F148BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5714B03D-D501-4B85-BB58-A0E2A4F148BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5714B03D-D501-4B85-BB58-A0E2A4F148BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5714B03D-D501-4B85-BB58-A0E2A4F148BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B67F0CB-7DEF-4C4E-9E8F-6578EE58B6F0}
+	EndGlobalSection
+EndGlobal
